@@ -1,4 +1,4 @@
-#- name: Create the nginx config file
-#  template:
-#    src: vhost.conf.j2
-#    dest: /etc/nginx/conf.d/vhost.conf
+- name: Create the nginx config file
+  template:
+    src: vhost.conf.j2
+    dest: /etc/nginx/conf.d/vhost.conf
